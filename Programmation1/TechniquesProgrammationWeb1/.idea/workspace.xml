@@ -25,9 +25,13 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Bureau\TechniquesProgrammationWeb1\Chapitre1" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\" />
     </key>
@@ -64,7 +68,14 @@
       <workItem from="1571964804727" duration="3987000" />
       <workItem from="1572096766538" duration="942000" />
       <workItem from="1573087413901" duration="1851000" />
-      <workItem from="1573169332452" duration="1942000" />
+      <workItem from="1573169332452" duration="2549000" />
+      <workItem from="1573304845695" duration="628000" />
+      <workItem from="1573777130045" duration="13073000" />
+      <workItem from="1574204717294" duration="1001000" />
+      <workItem from="1574212357173" duration="602000" />
+      <workItem from="1574351911875" duration="1710000" />
+      <workItem from="1574379875278" duration="636000" />
+      <workItem from="1574512920733" duration="2874000" />
     </task>
     <servers />
   </component>
