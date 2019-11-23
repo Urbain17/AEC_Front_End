@@ -25,15 +25,16 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Chapitre2/js" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Bureau\TechniquesProgrammationWeb1\Chapitre2\js" />
+      <recent name="E:\" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Bureau\TechniquesProgrammationWeb1\Chapitre1" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -75,7 +76,9 @@
       <workItem from="1574212357173" duration="602000" />
       <workItem from="1574351911875" duration="1710000" />
       <workItem from="1574379875278" duration="636000" />
-      <workItem from="1574512920733" duration="2874000" />
+      <workItem from="1574512920733" duration="6417000" />
+      <workItem from="1574519925518" duration="852000" />
+      <workItem from="1574520828304" duration="1129000" />
     </task>
     <servers />
   </component>
