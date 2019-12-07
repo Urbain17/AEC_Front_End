@@ -1,0 +1,29 @@
+/* style.css créé par Amentor...*/
+
+body{
+
+    background-color: #cccccc;
+}
+h1{
+    text-align: center;
+}
+a
+{
+    display:block;
+    text-align:center;
+}
+a:visited {
+    color : blue;
+}
+a :hover{
+    color: aquamarine;
+}
+p{
+    text-align: center;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
