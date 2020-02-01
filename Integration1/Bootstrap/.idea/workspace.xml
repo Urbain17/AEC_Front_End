@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f2946cb-2082-4059-a353-f952d2880a80" name="Default Changelist" comment="" />
+    <list default="true" id="97f465c3-f856-47e3-aa36-0306c3bdf8ce" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1SkHUilxxAUxw69tdR4hVLGzu3E" />
+  <component name="ProjectId" id="1Wox5AJxMTWiyaUsTPRUNOQhOk2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -34,8 +34,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Integration1\JeMePresente\Media" />
-      <recent name="C:\Users\Bureau\JeMePresente\Media" />
+      <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Integration1\Bootstrap\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -55,19 +54,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1f2946cb-2082-4059-a353-f952d2880a80" name="Default Changelist" comment="" />
-      <created>1572100690064</created>
+      <changelist id="97f465c3-f856-47e3-aa36-0306c3bdf8ce" name="Default Changelist" comment="" />
+      <created>1579829562527</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1572100690064</updated>
-      <workItem from="1572100691444" duration="7742000" />
-      <workItem from="1572797315524" duration="6392000" />
-      <workItem from="1573084247472" duration="1623000" />
-      <workItem from="1573304876732" duration="8425000" />
-      <workItem from="1573776763099" duration="14000" />
-      <workItem from="1573777103562" duration="646000" />
-      <workItem from="1574351982957" duration="4980000" />
-      <workItem from="1575727959584" duration="12528000" />
+      <updated>1579829562527</updated>
+      <workItem from="1579829567215" duration="21473000" />
+      <workItem from="1580250543319" duration="27892000" />
     </task>
     <servers />
   </component>
@@ -79,7 +72,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
