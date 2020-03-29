@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97f465c3-f856-47e3-aa36-0306c3bdf8ce" name="Default Changelist" comment="" />
+    <list default="true" id="aea19b4d-dee5-4af9-80df-bb114962c74c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,25 +16,33 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1Wox5AJxMTWiyaUsTPRUNOQhOk2" />
+  <component name="ProjectId" id="1YAIlCWfbrrjKflQEtvmeSJcewI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Examen2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Projet HTML/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Integration1\Bootstrap\img" />
+      <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Integration1\Projet HTML\img" />
+      <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Integration1\Parallax Background" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Integration1\Projet HTML\img" />
+      <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Integration1\Projet HTML" />
+      <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Integration1\Formulaires" />
+      <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Integration1\Parallax Background\img" />
+      <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Integration1\Modal - Jumbotron" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -54,16 +62,14 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="97f465c3-f856-47e3-aa36-0306c3bdf8ce" name="Default Changelist" comment="" />
-      <created>1579829562527</created>
+      <changelist id="aea19b4d-dee5-4af9-80df-bb114962c74c" name="Default Changelist" comment="" />
+      <created>1582379120810</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1579829562527</updated>
-      <workItem from="1579829567215" duration="21473000" />
-      <workItem from="1580250543319" duration="32181000" />
-      <workItem from="1580561680397" duration="2476000" />
-      <workItem from="1580566226903" duration="17007000" />
-      <workItem from="1581607199923" duration="2643000" />
+      <updated>1582379120810</updated>
+      <workItem from="1582379122034" duration="12156000" />
+      <workItem from="1583852415463" duration="12289000" />
+      <workItem from="1584109295830" duration="93665000" />
     </task>
     <servers />
   </component>

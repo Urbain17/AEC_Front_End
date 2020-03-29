@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97f465c3-f856-47e3-aa36-0306c3bdf8ce" name="Default Changelist" comment="" />
+    <list default="true" id="e3c39670-97ee-4037-a866-005d8ff72967" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,17 +24,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1Wox5AJxMTWiyaUsTPRUNOQhOk2" />
+  <component name="ProjectId" id="1XmEfXgrd0niBNQuWrEKW5A3gUJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Examen2" />
+    <property name="last_opened_file_path" value="F:/Imok" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Integration1\exerciceNavCarousel\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Integration1\Bootstrap\img" />
+      <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Integration1\exerciceNavCarousel\img" />
+      <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Integration1\exerciceNavCarousel" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -54,16 +58,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="97f465c3-f856-47e3-aa36-0306c3bdf8ce" name="Default Changelist" comment="" />
-      <created>1579829562527</created>
+      <changelist id="e3c39670-97ee-4037-a866-005d8ff72967" name="Default Changelist" comment="" />
+      <created>1581642972246</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1579829562527</updated>
-      <workItem from="1579829567215" duration="21473000" />
-      <workItem from="1580250543319" duration="32181000" />
-      <workItem from="1580561680397" duration="2476000" />
-      <workItem from="1580566226903" duration="17007000" />
-      <workItem from="1581607199923" duration="2643000" />
+      <updated>1581642972246</updated>
+      <workItem from="1581642973797" duration="9405000" />
     </task>
     <servers />
   </component>
@@ -75,9 +75,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>

@@ -1,0 +1,277 @@
+<!-- Projet final dans le cadre du cours Intégration Web -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Club de soccer de Beaumon</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-4.3.1/css/bootstrap.css">
+    <script src="bootstrap-4.3.1/js/bootstrap.js"></script>
+    <link rel="icon" href="img/Logo.png" />
+
+
+</head>
+<body>
+
+
+    <header>
+    <!--Début barre de navigation-->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand text-success" href="index.html">
+                <img src="img/Logo.png" height="50" width="50">
+                CLUB DE SOCCER DE BEAUMON</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse"id="navbarSupportedContent">
+                <ul class=" nav navbar-nav navbar-center">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html"><span class="font-weight-bold">ACCUEIL</span></a>
+                    </li>
+                    <li class="nav-item active"><a class="nav-link" href="page2.html"><span class="font-weight-bold" >NOUVELLES</span></a>
+                    </li>
+                    <li class="nav-item active"><a class="nav-link" href="page3.html"><span CLASS="font-weight-bold">CONTACT</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        <!--Fin barre de navigation-->
+    </header>
+
+<!-- 1ère section-->
+<section>
+    <div class="container-fluid">
+        <div class="row text-center text-white">
+            <div class="col banner">
+
+                <h1 style="font-style: italic"><strong>JOUEZ AVEC TACTIQUE</strong> </h1>
+
+                <h6 >FAIR PLAY / PLAISIR / COOPÉRATION</h6>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- 2è section-->
+<section>
+    <div class="jumbotron" id="section2">
+
+        <h3 class="text-center" style="color: white">CLUB DE SOCCER DE BEAUMON recrute</h3><br>
+        <div class="row text-center align-items-center text-center">
+        <div class="col-lg-6 align-items-center text-center">
+            <h3 style="color: white">Masculins</h3>
+            <div class="align-items-center">
+
+                    <div class="card align-items-center text-center">
+                        <div class="image-grid-container">
+
+                            <img src="img/Soccer masculin.jpg" height="120" width="120" alt="Soccer masculin">
+                        </div>
+
+                        <div class="card-body">
+                            <h4 class="card-title">Garçons et hommes</h4>
+
+                            <p class="card-text">
+                                Venez développer votre talent ou
+                                faire votre loisir, <strong>un mois gratuit</strong>
+                            </p>
+                            <a href="#" class="btn btn-primary" id="bouton1">
+                                S'inscrire
+                            </a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="col-lg-6 align-items-center">
+            <h3 style="color: white">Féminins</h3>
+
+                <div class="card text-center align-items-center">
+                    <div class="image-grid-container">
+                        <img src="img/Soccer feminin.jpg" height="120" width="120" alt="Soccer féminin">
+                    </div>
+
+                    <div class="card-body align-items-center text-center">
+                        <h4 class="card-title">Filles et femmes</h4>
+
+                        <p class="card-text">
+                            Venez développer votre talent ou faire votre loisir, <strong>deux mois gratuits</strong>
+                        </p>
+
+                        <a href="#" class="btn btn-primary" id="bouton2">
+                            S'incrire
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+    <!-- 3è section : jumbotron, card, carousel (voir bouton communiqués)...-->
+
+    <section>
+    <div class="jumbotron jumbotron-fluid" id="dark">
+        <div class="container">
+            <h3 style="color:white" class="text-center">COMMUNICATION</h3>
+            <!-- Button trigger modal-->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalRelatedContent" id="bouton4">Communiqués</button>
+
+            <!--Modal: modalRelatedContent-->
+            <div class="modal fade right" id="modalRelatedContent" tabindex="-1" role="dialog"
+                 aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
+                <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info" role="document">
+                    <!--Content-->
+                    <div class="modal-content">
+                        <!--Header-->
+                        <div class="modal-header">
+                            <p class="heading"><strong>COMMUNIQUÉS</strong></p>
+
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true" class="white-text">&times;</span>
+                            </button>
+                        </div>
+
+                        <!--Body-->
+                        <div class="modal-body">
+
+                            <div class="row">
+                                <div class="col-5">
+                                    <div id="demo" class="carousel slide" data-ride="carousel">
+                                        <ul class="carousel-indicators">
+                                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                                            <li data-target="#demo" data-slide-to="1"></li>
+                                            <li data-target="#demo" data-slide-to="2"></li>
+                                        </ul>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="img/Image1 carousel.jpg" alt="Garcon soccer" height="50" width="50">
+                                                <div class="carousel-caption">
+                                                    <p>Des jeunes joueurs!</p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="img/Image2 carousel.jpg" alt="Fille soccer" height="50" width="50">
+                                                <div class="carousel-caption">
+                                                    <p>Des jeunes joueuses!</p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+
+                                                <img src="img/Image3%20carousel.jpg" alt="Terrain soccer" height="50" width="50">
+                                                <div class="carousel-caption">
+                                                    <p>Nous avons une grande pelouse!</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                                            <span class="carousel-control-prev-icon"></span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                                            <span class="carousel-control-next-icon"></span>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-7">
+                                    <p><strong>Communiqué no 11</strong></p>
+                                    <p>Le club de soccer de Beaumon porte à la connaissance de ses membres que [...]</p>
+                                    <button type="button" class="btn btn-info btn-md" id="bouton5">Pour plus d'info</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.Content-->
+                </div>
+            </div>
+            <!--Modal: modalRelatedContent-->
+            <p class="text-center" style="color: white">Informations diverses</p>
+        </div>
+    </div>
+    </section>
+    <!-- 4è section-->
+<section>
+    <div class="container">
+
+        <div class="parallax"></div>
+        <div class="row text-center">
+
+            <div class="col">
+                <h5 class="text-center align-items-center" style="color: green">QUESTIONS? LAISSEZ NOUS UN MESSAGE!</h5>
+                <br>
+                <br>
+                <form>
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Nom">
+                        </div>
+                        <div class="col">
+                            <input type="email" class="form-control" placeholder="Courriel">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Message</textarea>
+                    </div>
+                    <button id="bouton3" type="submit" class="btn btn-primary">Envoyer</button>
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+
+
+</section>
+
+<!-- 5è section-->
+<section>
+    <div class="container banner2 ">
+        <div class="row" >
+            <div class="col">
+
+            </div>
+
+        </div>
+    </div>
+    <hr>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <h5 class="text-center">VOTRE CLUB</h5><br>
+                <p class="text-center">Heures d'ouverture<br>Bur 101, avenue Jean-Paul<br>Beaumon, QC, G1J 1L2<br> <strong>(819) 510-3012</strong>
+                    <br> soccerbeaumon@beaumonsoccer.ca
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer id="footer">
+<div class="container" >
+    <div class="row">
+        <p class="text-white">SUIVEZ-NOUS!</p>
+        <div class="col-3 text-center"><i class="fab fa-facebook text-white"></i></div>
+        <div class="col-3 text-center"><i class="fab fa-instagram-square text-white"></i></div>
+        <div class="col-3 text-center"><i class="fab fa-youtube-square text-white"></i></div>
+    </div>
+</div>
+</footer>
+
+<script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="bootstrap-4.3.1/js/bootstrap.js"></script>
+</body>
+</html>

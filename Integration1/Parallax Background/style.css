@@ -1,0 +1,18 @@
+html,body{
+    margin: 0;
+    height: 100%;
+}
+
+.parallax{
+    /*L'image du Parallax*/
+    background-image: url("img/photo paysage1.jpeg");
+    /* Hauteur du parallax */
+    height: 100%;
+
+    /*Création effet parallax*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
