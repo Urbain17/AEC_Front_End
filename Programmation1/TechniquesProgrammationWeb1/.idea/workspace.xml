@@ -13,6 +13,9 @@
       <executable />
     </execution>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="TechniquesProgrammationWeb1" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -29,16 +32,20 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Chapitre2/js" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="jsx.switch.disabled" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Integration1" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Programmation1\TechniquesProgrammationWeb1\Chapitre8\Exercice jQuery1 StormTrooper\js" />
+      <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Programmation1\TechniquesProgrammationWeb1\Chapitre8" />
+      <recent name="C:\Users\Bureau\TechniquesProgrammationWeb1\Chapitre1" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Programmation1\TechniquesProgrammationWeb1\Chapitre9" />
       <recent name="C:\Users\Bureau\TechniquesProgrammationWeb1\Chapitre2\js" />
       <recent name="E:\" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Bureau\TechniquesProgrammationWeb1\Chapitre1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -52,6 +59,16 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="exercice10.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Chapitre6/js/exercice10.js" working-dir="$PROJECT_DIR$/Chapitre6/js">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.exercice10.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -83,7 +100,20 @@
       <workItem from="1574512920733" duration="6417000" />
       <workItem from="1574519925518" duration="852000" />
       <workItem from="1574520828304" duration="1129000" />
-      <workItem from="1574523019173" duration="1227000" />
+      <workItem from="1574523019173" duration="5383000" />
+      <workItem from="1574983476413" duration="12723000" />
+      <workItem from="1575590700850" duration="24983000" />
+      <workItem from="1576149055978" duration="32312000" />
+      <workItem from="1577204180180" duration="110000" />
+      <workItem from="1577204311753" duration="1311000" />
+      <workItem from="1578078596171" duration="11300000" />
+      <workItem from="1578182801871" duration="19338000" />
+      <workItem from="1578749760993" duration="1971000" />
+      <workItem from="1579217238435" duration="9603000" />
+      <workItem from="1579821889408" duration="36927000" />
+      <workItem from="1581607195774" duration="42112000" />
+      <workItem from="1582243261069" duration="16160000" />
+      <workItem from="1582849104235" duration="12733000" />
     </task>
     <servers />
   </component>
@@ -95,7 +125,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
