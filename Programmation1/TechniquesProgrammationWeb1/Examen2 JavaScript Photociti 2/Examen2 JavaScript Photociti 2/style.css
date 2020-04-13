@@ -13,3 +13,23 @@ img{
 .rowLettres{
     border: #c5ccc4 solid 10px;
 }
+
+
+#butonext, #butonprev{
+    display: inline;
+    width: 3em;
+    padding: 10px;
+    font-size: 32px;
+    float: right;
+    background-color: black;
+}
+#butonprev:hover {
+    background-color: #d9022d;
+    color: #ffffff;
+}
+
+
+#butonext:hover{
+    background-color: #d9022d;
+    color: #ffffff;
+}
