@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>exo site de vente et intégration moyen de paiement</title>
+    <script src="test.js"></script>
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6"><img src="img/chandail1.jpg"></div>
+            <div class="col-6">Description</div>
+            <p>100% Coton prérétréci, 8.8 oz. Encolure surpiquée à deux aiguilles. Points de croix double aux ourlets des manches et de la taille.
+                Bande de recouvrement aux épaules et au col. Tissu tourné d’un quart de tour pour éliminer le pli central (ash grey 1% polyester,
+                sport grey/antique cherry red/antique irish green/antique jade dome/antique orange 10% polyester, safety green/safety orange/neon
+                blue/neon green/heather sapphire/heather red/dark heather 50% polyester)  </p>
+        </div>
+
+    </div>
+
+    <strong data-sezzleindex="0">3.37$</strong><br>
+
+
+
+    <div id="paypal-button"></div>
+    <script src="https://www.paypalobjects.com/api/checkout.js"></script>
+    <script>
+        paypal.Button.render({
+            // Configure environment
+            env: 'sandbox',
+            client: {
+                sandbox: 'demo_sandbox_client_id',
+                production: 'demo_production_client_id'
+            },
+            // Customize button (optional)
+            locale: 'en_US',
+            style: {
+                size: 'small',
+                color: 'gold',
+                shape: 'pill',
+            },
+
+            // Enable Pay Now checkout flow (optional)
+            commit: true,
+
+            // Set up a payment
+            payment: function(data, actions) {
+                return actions.payment.create({
+                    transactions: [{
+                        amount: {
+                            total: '0.01',
+                            currency: 'USD'
+                        }
+                    }]
+                });
+            },
+            // Execute the payment
+            onAuthorize: function(data, actions) {
+                return actions.payment.execute().then(function() {
+                    // Show a confirmation message to the buyer
+                    window.alert('Thank you for your purchase!');
+                });
+            }
+        }, '#paypal-button');
+
+    </script>
+
+    <script type="text/javascript" src="https://form.jotform.com/jsform/201224052347241"></script>
+
+
+<script src="test.js"></script>
+</body>
+</html>

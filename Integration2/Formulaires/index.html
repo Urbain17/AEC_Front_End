@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat milou</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-4.3.1/css/bootstrap.css">
+
+
+
+</head>
+<body>
+<div class="container">
+<img src="img/chat.jpg" class="center" style="text-align: center"><br>
+<p class="text-center"> Je me présente, je suis un petit mignon chat. Je m'appelle Milou. Veuillez entrer svp les informations indiquées.</p>
+
+<form class="">
+    <label> Nom</label>
+    <input type="text"><br><br>
+    <label>Âge</label>
+    <input type="text">
+    <label>Date de Naissance</label>
+    <input type="date"><br><br>
+    <label>Poids</label>
+    <input type="text"><br><br>
+    <label>Vaccin :</label>
+    <input type="checkbox" value="vacciné" name="vaccin"> vacciné
+    <input type="checkbox" value="non vacciné" name="vaccin"> non vacciné<br>
+
+    <label>Couleur du chat : </label>
+    <input type="radio" value="noir" name="couleurduchat"> noir
+    <input type="radio" value="blanc" name="couleurduchat"> blanc
+    <input type="radio" value="brun" name="couleurduchat"> brun
+    <input type="radio" value="mixte" name="couleurduchat"> mixte<br>
+    <label>Race : </label>
+    <input type="checkbox" value="domestique" name="race"> domestique
+    <input type="checkbox" value="racee" name="race"> racé<br><br>
+    <label>Lieu de naissance</label>
+    <input type="text"><br><br>
+    <label>Photo</label>
+    <input type="file" multiple><br><br>
+    <label>Courriel</label>
+    <input type="email" placeholder="integration2@gmail.com"><br><br>
+    <label>Numéro de téléphone</label>
+    <input type="tel" size="13" placeholder="9999-555--1/G" pattern="[0-9]{4}-[0-9]{3}--[0-9]{1}/[A-Z]{1}"><br><br>
+    <input type="submit" value="Soumettre!" class="text-center">
+
+</form>
+
+</div>
+
+
+<script src="bootstrap-4.3.1/js/bootstrap.js"></script>
+<script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="formulaire.js"></script>
+</body>
+</html>
