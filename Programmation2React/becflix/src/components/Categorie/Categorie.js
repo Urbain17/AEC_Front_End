@@ -1,7 +1,8 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
-
-
+//Il manque ton import ici
+import {TvShow} from '../TvShow/TvShow';
+//ok je vais le retester, merci
 let nomCategorie = "Suspense";
 
 export class Categorie extends React.Component {
