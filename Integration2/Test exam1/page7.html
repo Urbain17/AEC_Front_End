@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>page7</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../Examen%201/bootstrap-4.3.1/css/bootstrap.css">
+
+
+
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <canvas id="myCanvas" width="200" height="200" style="border: 1px solid #000000">
+            <script>
+                //dessiner le canevas
+                var canvas = document.getElementById("myCanvas");
+                var ctx = canvas.getContext("2d");
+
+                var gradient = ctx.createRadialGradient(110,90,30,100,100,70);
+
+                gradient.addColorStop(0, '#E59400');
+                gradient.addColorStop(.5, '#B27300' );
+                gradient.addColorStop(1, 'black');
+
+
+                ctx.fillStyle = gradient;
+                ctx.fillRect(20, 20, 160, 160);
+
+
+                // écrire mars dans le canevas
+                ctx.font = "20px Blippo, fantasy";
+                ctx.fillStyle = "black";
+                ctx.textAlign = "center"
+                ctx.fillText("Mars", 100, 100)
+
+                //Les petits points blancs
+                /*ctx.beginPath();
+                ctx.arc(2, 1, 1, 0, 2 * Math.PI, true);
+                ctx.fillStyle = "white"
+                ctx.stroke();*/
+            </script>
+        </canvas>
+    </div><br>
+    <div class="row">
+        <svg  id="mysvg" height="210" width="300" viewBox="0 0 100 100 " style="border: black solid">
+            <path id="mypath" stroke="black" stroke-width="1" fill="#ffffff" d="M40 70 V30 H30 L50 10 L60 20 L70 30 H60 V60 70 Z" />
+            <text x="15" y="90" fill="#ffffff" style="font-family: 'Lucida Console', Monaco,monospace " font-size="10px" >Destination</text>
+        </svg>
+    </div><br>
+    <div class="row">
+        <div id="paypal-button"></div>
+        <script src="https://www.paypalobjects.com/api/checkout.js"></script>
+        <script>
+            paypal.Button.render({
+                // Configure environment
+                env: 'sandbox',
+                client: {
+                    sandbox: 'demo_sandbox_client_id',
+                    production: 'demo_production_client_id'
+                },
+                // Customize button (optional)
+                locale: 'en_US',
+                style: {
+                    size: 'small',
+                    color: 'gold',
+                    shape: 'pill',
+                },
+
+                // Enable Pay Now checkout flow (optional)
+                commit: true,
+
+                // Set up a payment
+                payment: function(data, actions) {
+                    return actions.payment.create({
+                        transactions: [{
+                            amount: {
+                                total: '0.01',
+                                currency: 'USD'
+                            }
+                        }]
+                    });
+                },
+                // Execute the payment
+                onAuthorize: function(data, actions) {
+                    return actions.payment.execute().then(function() {
+                        // Show a confirmation message to the buyer
+                        window.alert('Thank you for your purchase!');
+                    });
+                }
+            }, '#paypal-button');
+
+        </script>
+    </div>
+
+</div>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="../Examen%201/bootstrap-4.3.1/js/bootstrap.js"></script>
+<script src="canvas.js"></script>
+</body>
+</html>

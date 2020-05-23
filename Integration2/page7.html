@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>page7</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link href="Examen 1/style.css" rel="stylesheet">
+
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+
+        1"
+    </div>
+    <div class="row">
+
+    2"
+
+    </div>
+    <div class="row">
+    <canvas height="200" id="myCanvas" style="border: 1px solid #000000" width="200">
+        <script>
+            //dessiner le canevas
+            var canvas = document.getElementById("myCanvas");
+            var ctx = canvas.getContext("2d");
+
+            var gradient = ctx.createRadialGradient(110,90,30,100,100,70);
+
+            gradient.addColorStop(0, '#E59400');
+            gradient.addColorStop(.5, '#B27300' );
+            gradient.addColorStop(1, 'black');
+
+
+            ctx.fillStyle = gradient;
+            ctx.fillRect(20, 20, 160, 160);
+
+
+            // écrire mars dans le canevas
+            ctx.font = "20px Blippo, fantasy";
+            ctx.fillStyle = "black";
+            ctx.textAlign = "center"
+            ctx.fillText("Mars", 100, 100)
+
+            //Les petits points blancs
+            /*ctx.beginPath();
+            ctx.arc(2, 1, 1, 0, 2 * Math.PI, true);
+            ctx.fillStyle = "white"
+            ctx.stroke();*/
+        </script>
+    </canvas>
+    </div><br><br>
+    <div class="row">
+
+    <svg  height="210" id="mysvg" style="border: black solid" viewBox="0 0 100 100 " width="300">
+
+
+        <path d="M40 70 V30 H30 L50 10 L60 20 L70 30 H60 V60 70 Z" fill="#ffffff" id="mypath" stroke="black" stroke-width="1" />
+
+
+        <text fill="#ffffff" font-size="10px" style="font-family: 'Lucida Console', Monaco,monospace " x="15" y="90" >Destination</text>
+    </svg>
+
+    </div><br><br>
+    <div class="row">
+
+    <script src="https://www.paypal.com/sdk/js?client-id=sb"></script>
+    <script>paypal.Buttons().render('body');</script>
+
+    </div>
+</div>
+</body>
+</html>

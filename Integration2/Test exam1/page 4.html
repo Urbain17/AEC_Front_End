@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>page4</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../Examen%201/bootstrap-4.3.1/css/bootstrap.css">
+    <script src="../Examen%201/bootstrap-4.3.1/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../Examen%201/style.css">
+
+
+</head>
+
+<body>
+
+
+
+
+
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+        }
+
+        .grid-container > div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+    </style>
+
+
+
+
+
+
+<div class="grid-container container">
+
+
+    <form>
+
+
+    </form>
+   <div>
+
+
+        <!--formulaire-->
+
+        <form>
+            <h3 class="" align="center">Participez à l'avenir de la race humaine</h3>
+            <p align="center" style="font-size: small">Inscrivez-vous à la prochaine mission de colonisation sur
+                Mars!</p>
+
+            <hr align="center" width="70%" color="black" size="3">
+
+
+            <div class="container text-left" style="font-size: medium">
+                <label for="identification">Identification <em>*</em></label>
+                <!--<input type="text" name="identification" id="identification" size="3" >
+                <input type="text" name="identification"/><br ><br>-->
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+
+                        <input type="text" class="form-control" id="identification" placeholder="" value="" required=""
+                               data-kwimpalastatus="alive" data-kwimpalaid="1590188260069-4">
+                        <div>
+                            Valid first name is required.
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+
+                        <input type="text" class="form-control" id="identification1" placeholder="" value="" required=""
+                               data-kwimpalastatus="alive" data-kwimpalaid="1590188260069-5">
+                        <div class="invalid-feedback">
+                            Valid last name is required.
+                        </div>
+                    </div>
+                </div>
+
+
+                <label for="naissance" style="text-align: left ">Date de naissance <em>*</em> </label>
+                <input type="text" name="naissance" id="naissance"><br><br>
+
+
+                <label for="identification">Numéro de <br>téléphone <em>*</em></label>
+                <input type="text" name="telephone" id="telephone" size="2"> -
+                <input type="text" name="telephone" size="4"/><br><br>
+
+
+                <label for="identification">Email <em>*</em></label>
+                <input type="email" name="email" id="email" placeholder="ex: nyname@example.com" size="30"/><br><br>
+
+                <label for="identification">Adresse <em>*</em></label>
+                <input type="text" name="adresse" id="adresse"><br>
+                <input type="text" name="adresse"><br><br>
+                <label></label>
+                <input type="text" name="adresse" id="numeroappt" size="3"> -
+
+                <input type="text" name="adresse" id="ville"><br><br>
+
+                <input type="text" name="adresse" id="codepostal"><br><br>
+
+
+                <label>Sexe <em>*</em></label>
+                <select>
+                    <option value="" disabled selected></option>
+                    <option> Masculin</option>
+                    <option> Féminin</option>
+                </select><br><br>
+
+
+                <label>Métier <em>*</em></label>
+                <input type="text" name="metier" id="metier"/><br><br>
+
+
+                <label>Présentation</label>
+                <textarea id="presentation" rows="" cols=""></textarea><br><br>
+
+
+                <div class="row">
+                    <div class="col-4">
+                        <label for="presentation" class="first-name"></label>
+
+
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 p-l-none"><br>
+                        <input type="submit" value="Soumettre ma candidature">
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </form>
+
+    </div>
+
+    <div class="item2">
+
+        <!--Lune-->
+        <div class="container">
+            <div class="row">
+                <canvas id="myCanvas" width="200" height="200" style="border: 1px solid #000000">
+                    <script>
+                        //dessiner le canevas
+                        var canvas = document.getElementById("myCanvas");
+                        var ctx = canvas.getContext("2d");
+
+                        var gradient = ctx.createRadialGradient(110, 90, 30, 100, 100, 70);
+
+                        gradient.addColorStop(0, '#E59400');
+                        gradient.addColorStop(.5, '#B27300');
+                        gradient.addColorStop(1, 'black');
+
+
+                        ctx.fillStyle = gradient;
+                        ctx.fillRect(20, 20, 160, 160);
+
+
+                        // écrire mars dans le canevas
+                        ctx.font = "20px Blippo, fantasy";
+                        ctx.fillStyle = "black";
+                        ctx.textAlign = "center"
+                        ctx.fillText("Mars", 100, 100)
+
+                        //Les petits points blancs
+                        /*ctx.beginPath();
+                        ctx.arc(2, 1, 1, 0, 2 * Math.PI, true);
+                        ctx.fillStyle = "white"
+                        ctx.stroke();*/
+                    </script>
+                </canvas>
+            </div>
+
+            <!--Destination-->
+            <div class="row">
+                <svg id="mysvg" height="210" width="300" viewBox="0 0 100 100 " style="border: black solid">
+
+
+                    <path id="mypath" stroke="black" stroke-width="1" fill="#ffffff"
+                          d="M40 70 V30 H30 L50 10 L60 20 L70 30 H60 V60 70 Z"/>
+                    <text x="15" y="90" fill="#ffffff" style="font-family: 'Lucida Console', Monaco,monospace " font-size="10px">Destination</text>
+                </svg>
+
+            </div>
+            <!--PayPal payment Button-->
+            <div class="row">
+                <script src="https://www.paypal.com/sdk/js?client-id=sb"></script>
+                <script id="mybutton">paypal.Buttons().render('body');</script>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <!--nouveau modele-->
+        <!--<div class="row">
+           <form class="form-horizontal">
+               <div class="span6">
+                   <fieldset>
+                       <legend>Legend text</legend>
+                       <div class="control-group">
+                           <label class="control-label" for="input01">Text input</label>
+                           <div class="controls">
+                               <input type="text" class="input-xlarge" id="input01">
+                               <p class="help-block">Supporting help text</p>
+                           </div>
+                       </div>
+                       <div class="control-group">
+                           <label class="control-label" for="input01">Text input</label>
+                           <div class="controls">
+                               <input type="text" class="input-xlarge" id="input01">
+                               <p class="help-block">Supporting help text</p>
+                           </div>
+                       </div>
+                       <div class="control-group">
+                           <label class="control-label" for="input01">Text input</label>
+                           <div class="controls">
+                               <input type="text" class="input-xlarge" id="input01">
+                               <p class="help-block">Supporting help text</p>
+                           </div>
+                       </div>
+                       <div class="control-group">
+                           <label class="control-label" for="input01">Text input</label>
+                           <div class="controls">
+                               <input type="text" class="input-xlarge" id="input01">
+                               <p class="help-block">Supporting help text</p>
+                           </div>
+                       </div>
+                       <div class="control-group">
+                           <label class="control-label" for="input01">Text input</label>
+                           <div class="controls">
+                               <input type="text" class="input-xlarge" id="input01">
+                               <p class="help-block">Supporting help text</p>
+                           </div>
+                       </div>
+                   </fieldset>
+               </div>
+               <div class="span6">
+                   <fieldset>
+                       <legend>Legend text</legend>
+                       <div class="control-group">
+                           <label class="control-label" for="input01">Text input</label>
+                           <div class="controls">
+                               <input type="text" class="input-xlarge" id="input01">
+                               <p class="help-block">Supporting help text</p>
+                           </div>
+                       </div>
+                   </fieldset>
+               </div>
+           </form>
+       </div>-->
+
+
+</body>
+</html>

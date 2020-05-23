@@ -16,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -30,11 +30,16 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/integrationPaypal/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Examen 1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Integration2\Test exam1" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Integration2\Examen 1" />
+      <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Integration2\Revision examen 1" />
       <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Integration2\integrationPaypal\img" />
       <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Integration2\sgvandcanvas" />
       <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Integration2" />
@@ -63,7 +68,12 @@
       <option name="presentableId" value="Default" />
       <updated>1587822361572</updated>
       <workItem from="1587822362911" duration="10096000" />
-      <workItem from="1588424691486" duration="8050000" />
+      <workItem from="1588424691486" duration="8969000" />
+      <workItem from="1589632573252" duration="63309000" />
+      <workItem from="1589905888965" duration="7474000" />
+      <workItem from="1590020129450" duration="9681000" />
+      <workItem from="1590090869722" duration="8940000" />
+      <workItem from="1590186128945" duration="34091000" />
     </task>
     <servers />
   </component>

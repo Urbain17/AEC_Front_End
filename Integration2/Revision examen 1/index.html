@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="bootstrap-4.3.1/css/bootstrap.css">
+</head>
+<body>
+
+<p> Formulaire </p>
+<form>
+
+    <div class="form-group">
+        <h3>Feeback Form</h3>
+        <p>We would love to hear your thoughts, concerns or problems with anything so we can improve!</p>
+
+        <br>
+
+
+        <h5>Feedback Type</h5>
+
+        <input type="radio">
+        <label> Comments</label>
+        <input type="radio">
+        <label> Bug Reports </label>
+        <input type="radio">
+        <label> Questions </label>
+
+        <br>
+
+        <h5>Describe Feedback: </h5><span class="required">*</span>
+        <textarea id="exam1" rows="6" cols="50"></textarea>
+
+        <br>
+
+        <h5>Name </h5><span class="required">*</span>
+        <input type="text" id="fname" required="required">
+        <label for="fname">First Name</label>
+        <input type="text" id="lname">
+        <label>Last Name</label>
+
+        <br>
+
+        <h5>E-mail </h5><span class="required">*</span>
+        <input type="email" id="courriel" placeholder="ex: myname@example.com" required="required">
+        <label for="courriel">example@example.com</label>
+
+        <br>
+
+        <button>SUBMIT FEEDBACK</button>
+
+
+
+
+    </div>
+
+</form>
+
+<canvas id="canvas1" width="200" height="200" style="border: 1px solid"></canvas>
+
+
+
+
+
+<script src="bootstrap-4.3.1/js/bootstrap.js"></script>
+</body>
+</html>

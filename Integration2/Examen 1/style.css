@@ -1,0 +1,37 @@
+#mypath{
+
+     height: 100%;
+     width: 100%;
+     display: block;
+     color: white;
+}
+
+#mysvg{
+    background-color: black;
+}
+label{
+    color: white;
+}
+
+em{
+    color: red;
+}
+form{
+    background: #190404;
+}
+div, h3, p{
+    color: white;
+}
+
+
+#global {
+    overflow:auto;
+}
+#gauche {
+    float:left;
+    width:60%;
+}
+#droit {
+    overflow:auto;
+    background-color: black;
+}
