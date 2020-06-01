@@ -1,0 +1,22 @@
+#monTableau{
+    border-collapse: collapse ;
+    width: 100%;
+}
+
+#monTableau td, #monTableau th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#monTableau tr:nth-child(even){background-color: #f2f2f2;}
+
+#monTableau tr:hover {background-color: #ddd;}
+
+#monTableau th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: black;
+    color: white;
+
+}

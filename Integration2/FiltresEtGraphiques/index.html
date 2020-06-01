@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FiltresEtGraphiques</title>
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <link href="style.css" rel="stylesheet">
+    <link href="bootstrap-4.3.1/css/bootstrap.css" rel="stylesheet">
+
+
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <table id="monTableau">
+                <tr>
+                    <th>Titre du film</th>
+                    <th>Année de sortie</th>
+                </tr>
+                <tr>
+                    <td>Once Upon a Time… in Hollywood</td>
+                    <td>2019</td>
+                </tr>
+                <tr>
+                    <td>Pulp fiction</td>
+                    <td>1994</td>
+                </tr>
+                <tr>
+                    <td>Kill Bill</td>
+                    <td>2003</td>
+                </tr>
+                <tr>
+                    <td>Django</td>
+                    <td>2012 </td>
+                </tr>
+                <tr>
+                    <td>Inglourious Basterds</td>
+                    <td>2009</td>
+                </tr>
+            </table><br>
+            <!--Barre de recherche et le bouton pour afficher le dropdown-->
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <input type="text" placeholder="Recherche" id="myInput" onkeyup="filterFunction()">
+                    <a href="#about"></a>
+                    <a href="#about"></a>
+                    <a href="#about"></a>
+                    <a href="#about"></a>
+                    <a href="#about"></a>
+                    <a href="#about"></a>
+                    <a href="#about"></a>
+                    <a href="#about"></a>
+                </div>
+            </div>
+        </div>
+        <div class="col">Column2</div>
+        <div class="w-100"></div>
+        <div class="col">Column3</div>
+        <div class="col">Column4</div>
+    </div>
+</div>
+
+<script src="bootstrap-4.3.1/js/bootstrap.js"></script>
+<script src="jquery-3.4.1.js"></script>
+<script src="filtresetgraphiques.js"></script>
+</body>
+</html>

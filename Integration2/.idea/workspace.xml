@@ -16,9 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -30,19 +30,19 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Examen 1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ExercicePresentationFilmLibJS/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Integration2\ExercicePresentationFilmLibJS\img" />
+      <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Integration2\ExercicePresentationFilmLibJS" />
+      <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Integration2\LibrairiesJavascript" />
+      <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Integration2\FiltresEtGraphiques" />
+      <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Integration2\Examen 1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Integration2\Test exam1" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Integration2\Examen 1" />
-      <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Integration2\Revision examen 1" />
-      <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Integration2\integrationPaypal\img" />
-      <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Integration2\sgvandcanvas" />
-      <recent name="C:\Users\Bureau\Documents\GithHubProjects\AEC_Front_End\Integration2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -73,7 +73,8 @@
       <workItem from="1589905888965" duration="7474000" />
       <workItem from="1590020129450" duration="9681000" />
       <workItem from="1590090869722" duration="8940000" />
-      <workItem from="1590186128945" duration="34091000" />
+      <workItem from="1590186128945" duration="41513000" />
+      <workItem from="1590844641045" duration="12589000" />
     </task>
     <servers />
   </component>
