@@ -62,4 +62,3 @@ const styleColHover={
     backgroundColor: '#808080',
     color:'black',
 }
-

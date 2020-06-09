@@ -3,9 +3,9 @@ import './App.css';
 import Row  from 'react-bootstrap/Row'; 
 import Col from 'react-bootstrap/Col';  
 import { ListeChansons } from './ListeChansons';
-import { Paroles } from './Paroles';
+import { Paroles }  from './Paroles';
 import arrow from '../img/BackImage.jpg'
-import Container from 'react-bootstrap/Container';  
+import Container from 'react-bootstrap/Container';
 
 export class PageAlbum extends React.Component  {
     constructor(props) {

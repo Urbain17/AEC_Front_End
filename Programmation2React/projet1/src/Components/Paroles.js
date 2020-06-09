@@ -12,4 +12,4 @@ export class Paroles extends React.Component  {
     }
 }
 
-Paroles.defaultProps = { paroles: 'Les paroles ne sont pas disponibles' };  
+Paroles.defaultProps = { paroles: 'Les paroles ne sont pas disponibles. Merci de votre compréhension!'};  
