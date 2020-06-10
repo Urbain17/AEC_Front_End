@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "./static/css/main.9d519632.chunk.css",
+    "main.js": "./static/js/main.1fd1a076.chunk.js",
+    "main.js.map": "./static/js/main.1fd1a076.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.999fee6a.js",
+    "runtime-main.js.map": "./static/js/runtime-main.999fee6a.js.map",
+    "static/css/2.92a0e85f.chunk.css": "./static/css/2.92a0e85f.chunk.css",
+    "static/js/2.6aa4ce9f.chunk.js": "./static/js/2.6aa4ce9f.chunk.js",
+    "static/js/2.6aa4ce9f.chunk.js.map": "./static/js/2.6aa4ce9f.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.f9ad3cbf39dbd6078222d76c5b2f7904.js": "./precache-manifest.f9ad3cbf39dbd6078222d76c5b2f7904.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.92a0e85f.chunk.css.map": "./static/css/2.92a0e85f.chunk.css.map",
+    "static/css/main.9d519632.chunk.css.map": "./static/css/main.9d519632.chunk.css.map",
+    "static/js/2.6aa4ce9f.chunk.js.LICENSE.txt": "./static/js/2.6aa4ce9f.chunk.js.LICENSE.txt",
+    "static/media/2Freres_Nous_autres.jpg": "./static/media/2Freres_Nous_autres.b2daf53d.jpg",
+    "static/media/Alex Nevsky_Himalaya_mon_amour.jpg": "./static/media/Alex Nevsky_Himalaya_mon_amour.6c6a11d8.jpg",
+    "static/media/ImageSpotify.png": "./static/media/ImageSpotify.d92d9eca.png",
+    "static/media/Karim Ouellet_Fox.jpg": "./static/media/Karim Ouellet_Fox.0fd398c3.jpg",
+    "static/media/Klo Pelgag_Alchimie_des_monstres.jpg": "./static/media/Klo Pelgag_Alchimie_des_monstres.c0b7d4fe.jpg",
+    "static/media/Les cowboys fringants_Les_antipodes.jpg": "./static/media/Les cowboys fringants_Les_antipodes.9476774f.jpg",
+    "static/media/Safia Nolin_Limoilou.jpg": "./static/media/Safia Nolin_Limoilou.82c45042.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.999fee6a.js",
+    "static/css/2.92a0e85f.chunk.css",
+    "static/js/2.6aa4ce9f.chunk.js",
+    "static/css/main.9d519632.chunk.css",
+    "static/js/main.1fd1a076.chunk.js"
+  ]
+}
