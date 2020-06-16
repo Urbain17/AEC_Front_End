@@ -3,12 +3,14 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>La Légende Zelda</title>
     <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
 
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
+
 </head>
 <body>
 <!-- Header -->
@@ -52,7 +54,7 @@
 <div class="container">
     <div class="row pt-3 pb-3">
         <div class="col-12 ">
-            <input class="form-control" type="text" id="myInput"  placeholder="Rechercher un jeu...">
+            <input class="form-control" type="text" id="myInput" onkeyup="myFunction()" placeholder="Rechercher un jeu..." >
             <hr>
             <ul class="list-group text-center" id="myUL">
                 <li class="list-group-item"><a href="#">Breath of the wild</a></li>
@@ -80,11 +82,15 @@
             <h1> Zelda en chiffres</h1>
         </div>
     </div>
-    <div class="row ">
-        <!-- ..... -->
+    <div class="row " id="piechart">
+        <!-- piechart -->
+    </div>
+    <div class="row " id="regions_div">
+        <!-- geochart -->
     </div>
 </div>
 
 <script src="bootstrap-4.0.0-dist/js/bootstrap.js"></script>
+
 </body>
 </html>

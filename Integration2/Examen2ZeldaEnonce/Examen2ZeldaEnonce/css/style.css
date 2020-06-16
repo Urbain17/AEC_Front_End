@@ -93,3 +93,13 @@ body{
 ::-ms-input-placeholder { /* Microsoft Edge */
     color:white !important;
 }
+#piechart,#regions_div {
+    padding: auto;
+    margin: auto;
+    border: 10px solid black;
+}
+/*#regions_div{
+    padding: auto;
+    margin: auto;
+
+}*/
