@@ -37,5 +37,59 @@ a:hover{
     background-color: #ceb373ad;
     border: 2px solid rgb(255, 255, 255);
 }
+/*addings*/
 
+header{
+    background-image: url("../img/banniere.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 2%;
 
+}
+
+a,h1{
+    color: #ffffff;
+}
+
+h1{
+    font-family: CinzelDecorative;
+    text-shadow: 0px 0px 4px black;
+}
+
+@font-face {
+    font-family: CinzelDecorative;
+    src: url("../font/CinzelDecorative-Bold.ttf");
+}
+
+header  a{
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+body{
+    background-image: url("../img/pattern-triforce-2x.png");
+    background-repeat: repeat;
+    background-color: #234f30;
+}
+
+/*.form-control::-webkit-input-placeholder {
+    color: white !important;
+}*/
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:white !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:white !important;
+    opacity:1 !important;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:white !important;
+    opacity:1 !important;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:white !important;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color:white !important;
+}
