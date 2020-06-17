@@ -4,16 +4,16 @@ import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
 import ListGroupItem from "react-bootstrap/ListGroupItem";
 
-export class PersonnageV2 extends React.Component {
+export class PersonnageV3 extends React.Component {
   constructor(props) {
     super(props);
     this.state = {data : []};
   }
 
-  componentDidMount(){
-    fetch('https://swapi.dev/api/people/1/')
-      .then(res => res.json())
-      .then(json => this.setState({ data: json }));
+  async componentDidMount(){
+      const response = await fetch('https://swapi.dev/api/people/1/');
+      const json = await response.json();
+      this.setState({ data: json });
   }
 
   render() {
