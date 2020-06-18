@@ -7,9 +7,16 @@
     <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
 
+    <link rel="stylesheet" href="Hover-master/css/hover.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
+
+
 
 </head>
 <body>
@@ -18,7 +25,7 @@
     <div class="container-fluid  text-center pt-3">
         <div class="row">
             <div class="col-1">
-                <a class=" " href="#">Jeux</a>
+                <a class=" hvr-grow" href="#">Jeux</a>
             </div>
             <div class="col-1 mr-5">
                 <a class=" hvr-grow" href="#">Marchandise</a>
@@ -82,15 +89,20 @@
             <h1> Zelda en chiffres</h1>
         </div>
     </div>
-    <div class="row " id="piechart">
+    <div class="row " id="piechart" data-aos="fade-up" data-aos-duration="3000">
         <!-- piechart -->
     </div>
-    <div class="row " id="regions_div">
+    <div class="row " id="regions_div" data-aos="fade-up" data-aos-duration="3000">
         <!-- geochart -->
     </div>
 </div>
 
 <script src="bootstrap-4.0.0-dist/js/bootstrap.js"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </body>
 </html>
