@@ -19,7 +19,7 @@ function App() {
         <Router>
         <ToastContainer autoClose={3000} hideProgressBar />
             <Menu/>
-            <BoutonInstallPWA/>
+           
       <Switch>
         <Route path="/" exact component={AfficherAuto} />
         <Route path="/ajouter" component={FormAjouterAuto} />
