@@ -10,6 +10,7 @@ import { ToastContainer } from "react-toastify";
 import FormEditerAuto from './FormEditerAuto';
 import 'react-toastify/dist/ReactToastify.css';
 import {PageNotFound} from './PageNotFound';
+import BoutonInstallPWA from "./BoutonInstallPWA";
 
 function App() {
     return ( <div> 
@@ -18,6 +19,7 @@ function App() {
         <Router>
         <ToastContainer autoClose={3000} hideProgressBar />
             <Menu/>
+            <BoutonInstallPWA/>
       <Switch>
         <Route path="/" exact component={AfficherAuto} />
         <Route path="/ajouter" component={FormAjouterAuto} />

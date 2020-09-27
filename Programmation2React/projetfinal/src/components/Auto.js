@@ -11,7 +11,7 @@ export class Auto extends React.Component{
             <>
             <Col lg='4' className='mt-4'>
         <Card>
-        <Card.Img variant="top" src={this.props.image} style={{width:"100%", height:250}} />
+        <Card.Img variant="top" src={this.props.image} style={{width:"100%"}} />
         <Card.Body>
           <Card.Title>
           <Link
